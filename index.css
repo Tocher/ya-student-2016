@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Rune; /* Имя шрифта */
+    src: url(pictures/runic.ttf); /* Путь к файлу со шрифтом */
+}
+
+body.list
+{
+    background: #1F1F21;
+}
+
+.gifimg
+{
+    max-width: 400px;
+
+    position: absolute;
+    right: 50px;
+}
+
+
+.gifimg2
+{
+    max-width: 300px;
+
+    position: absolute;
+    right: 50px;
+}
+
+.white
+{
+    color: #fff !important;
+    background-size: 100%;
+}
+
+.white blockquote
+{
+    color: #fff !important;
+}
+
+.black
+{
+    background-size: 100%;
+}
+
+.right
+{
+    float: right !important;
+}
+
+.slide > div
+{
+    padding: 25px 40px 0 40px !important;
+}
+
+.gray_bg
+{
+    background: -webkit-linear-gradient(top, #1F1F21, #000);
+}
+
+.inline_current
+{
+    background-image: url(pictures/inline_current.png);
+}
+
+.animate_inline.active
+{
+    background-image: url(pictures/inline.jpg);
+
+    -webkit-animation: wave .3s linear;
+    -webkit-animation-delay: 7s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes wave
+{
+    0% { background-image: url(pictures/inline.jpg); }
+    100% { background-image: url(pictures/inline_arrow.jpg); }
+}
+
+.animate_inline_white.active
+{
+    background-image: url(pictures/inline2.jpg);
+
+    -webkit-animation: waves .3s linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes waves
+{
+    0% { background-image: url(pictures/inline2.jpg); }
+    100% { background-image: url(pictures/inline2_arrow.jpg); }
+}
+
+.footer_anim.active
+{
+    -webkit-animation: footer .7s linear;
+    -webkit-animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes footer
+{
+    0% { background-image: url(pictures/footer_desktop.jpg); }
+    100% { background-image: url(pictures/footer_desktop2.jpg); }
+}
+
+.slide ul ul > li:lang(ru):before
+{
+    color: #777;
+}
+
+.sw5
+{
+    background-image: url(pictures/sw5.jpg) !important;
+}
+
+.sw4
+{
+    background-image: url(pictures/sw4.jpg) !important;
+}
+
+.sw3
+{
+    background-image: url(pictures/sw3.jpg) !important;
+}
+
+.sw2
+{
+    background-image: url(pictures/sw2.jpg) !important;
+}
+
+
+.sw1
+{
+    background-image: url(pictures/sw1.jpg) !important;
+}
+
+h2.shri {
+    color: #FEFCD6;
+    font-size: 140px !important;
+    font-family: Rune !important;
+    margin-top: 10px;
+    margin-left: 465px;
+    text-shadow: 1px 1px 15px #000;
+}
+
+h3.shri3 {
+    color: #FEFCD6;
+    margin-top: 430px;
+    margin-left: 385px;
+    text-shadow: 1px 1px 15px #000, 1px 1px 15px #000, 1px 1px 15px #000;
+}
